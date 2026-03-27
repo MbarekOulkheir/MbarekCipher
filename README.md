@@ -28,7 +28,7 @@ Clone le repo et accédez au dossier du projet :
 git clone https://github.com/OulkheirMbarek/MbarekCipher.git
 cd MbarekCipher
 ```
-🚀 Exemple rapide
+## 🚀 Exemple rapide
 ```php
 require_once 'src/Cipher.php';
 
@@ -39,14 +39,15 @@ $cipher = new Cipher("maCleSecrete", 4096);
 $cipher->encryptFile("input.txt", "output.mbk");
 $cipher->decryptFile("output.mbk", "decrypted.txt");
 ```
-📂 Structure du projet
+## 📂 Structure du projet
 
+```text
 MbarekCipher/
 ├── src/
-│ ├── Cipher.php
-│ └── classes/
-│ ├── Matrix.php
-│ └── LayerTransformer.php
+│   ├── Cipher.php
+│   └── classes/
+│       ├── Matrix.php
+│       └── LayerTransformer.php
 ├── examples/
 ├── tests/
 ├── README.md
@@ -56,7 +57,6 @@ MbarekCipher/
 
 Mbarek Oulkheir
 📧 oulkheir@gmail.com
-
 📍 Maroc, Haut Atlas
 
 📜 Licence
@@ -87,7 +87,7 @@ Toutes les classes (Cipher, Matrix, LayerTransformer) sont dans le dossier src/c
 - [ ] Amélioration du chiffrement multidimensionnel
 - [ ] Version 2.0 (matrice 3D avancée)
 
-🎯 Résultat attendu
+## 🎯 Résultat attendu
 
 Après utilisation du Mbarek Cipher :
 
