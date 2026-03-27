@@ -65,8 +65,12 @@ Mbarek Oulkheir
 
 📜 Licence
 
-Ce projet est sous licence MIT.
-Voir le fichier LICENSE pour plus de détails.
+Ce projet est sous licence MIT. Voir le fichier LICENSE
+ pour tous les détails.
+📜 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](https://chatgpt.com/c/LICENSE)
+ pour tous les détails.
 
 🙏 Remerciements / Inspirations
 
