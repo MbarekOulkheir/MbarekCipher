@@ -1,46 +1,114 @@
-Mbarek Cipher v1.0
-==================
+# 🔐 Mbarek Cipher v1.0
 
-Mbarek Cipher est un algorithme de chiffrement expérimental en PHP utilisant des transformations multidimensionnelles
-(1D, 2D, 3D) pour sécuriser les fichiers.
+Mbarek Cipher est un algorithme de chiffrement expérimental en PHP utilisant des transformations multidimensionnelles (1D, 2D, 3D) pour sécuriser les fichiers.
 
-⚠️ Avertissement : Projet expérimental, NON AUDITÉ pour la sécurité.
-Ne pas utiliser pour des données sensibles.
+---
 
-Fonctionnalités :
-- Chiffrement et déchiffrement de fichiers
-- Gestion de blocs ajustables (blockSize)
-- Support pour fichiers de toutes tailles
-- Exemple d'utilisation inclus
+## ⚠️ Avertissement
 
-Exemple rapide :
-----------------
+> Projet expérimental — NON AUDITÉ pour la sécurité.  
+> ❌ Ne pas utiliser pour des données sensibles.
+
+---
+
+## ✨ Fonctionnalités
+
+- 🔒 Chiffrement et déchiffrement de fichiers  
+- 📦 Gestion de blocs ajustables (`blockSize`)  
+- 📁 Support des fichiers de toutes tailles  
+- 🧪 Exemples d’utilisation inclus
+
+---
+
+## ⚡ Installation
+
+Clone le repo et accédez au dossier du projet :
+
+```bash
+git clone https://github.com/OulkheirMbarek/MbarekCipher.git
+cd MbarekCipher
+```
+🚀 Exemple rapide
+```php
 require_once 'src/Cipher.php';
+
 use MbarekCipher\Cipher;
 
 $cipher = new Cipher("maCleSecrete", 4096);
+
 $cipher->encryptFile("input.txt", "output.mbk");
 $cipher->decryptFile("output.mbk", "decrypted.txt");
+```
+📂 Structure du projet
 
-Auteur :
---------
+MbarekCipher/
+├── src/
+│ ├── Cipher.php
+│ └── classes/
+│ ├── Matrix.php
+│ └── LayerTransformer.php
+├── examples/
+├── tests/
+├── README.md
+└── LICENSE
+
+👤 Auteur
+
 Mbarek Oulkheir
-Email : oulkheir@gmail.com
-Location : Maroc, Haut Atlas
+📧 oulkheir@gmail.com
 
-Licence
--------
-Ce projet est sous MIT License. Consultez le fichier LICENSE pour plus de détails.
+📍 Maroc, Haut Atlas
+
+📜 Licence
+
+Ce projet est sous licence MIT.
+Voir le fichier LICENSE pour plus de détails.
+
+🙏 Remerciements / Inspirations
+
+Ce projet a été grandement soutenu et guidé par l'assistant IA ChatGPT, qui a aidé à :
+
+structurer l’algorithme
+améliorer le code PHP
+comprendre GitHub
+
+Merci à toutes les intelligences artificielles et outils qui rendent le développement plus accessible et créatif.
+
+📝 Notes
+Le fichier exemple (test_cipher.php) montre comment utiliser le cipher sur différents types de fichiers
+Le debug est désactivé par défaut pour la publication
+Toutes les classes (Cipher, Matrix, LayerTransformer) sont dans le dossier src/classes/
+
+## 🚧 Roadmap
+
+- [ ] Optimisation des performances
+- [ ] Tests sur fichiers volumineux
+- [ ] Analyse d’entropie
+- [ ] Amélioration du chiffrement multidimensionnel
+- [ ] Version 2.0 (matrice 3D avancée)
+
+🎯 Résultat attendu
+
+Après utilisation du Mbarek Cipher :
+
+✅ Chiffrement et déchiffrement réussis des fichiers
+✅ Support de fichiers de toutes tailles
+✅ Exemple d’utilisation fonctionnel
+✅ Code source structuré et facile à comprendre
+✅ Projet prêt pour feedback et tests publics
 
 
-Remerciements / Inspirations
-----------------------------
-Ce projet a été grandement soutenu et guidé par l'assistant IA **ChatGPT**, qui m'a aidé à structurer l'algorithme, comprendre GitHub et améliorer mon code PHP.
+---
 
-Merci à toutes les intelligences artificielles et outils qui rendent le développement plus accessible et créatif !
+💡 **Ce qu’il se passe sur GitHub :**  
 
-Notes :
--------
-- Le fichier exemple (`test_cipher.php`) montre comment utiliser le cipher sur différents types de fichiers.
-- Le debug est désactivé par défaut pour la publication.
-- Toutes les classes (`Cipher`, `Matrix`, `LayerTransformer`) sont dans le dossier `src/classes/`.
+- Les blocs Bash et PHP sont colorés automatiquement  
+- Les checkboxes dans la Roadmap sont interactives  
+- Tout le texte est correctement séparé et lisible  
+- Tu peux copier-coller directement dans `README.md` et commiter  
+
+---
+
+Si tu veux, après ce commit, je peux te guider **pour créer ta première release officielle v1.0 sur GitHub**, étape par étape, pour que ton projet soit visible et téléchargeable 🎯  
+
+Veux-tu qu’on fasse ça maintenant ?
