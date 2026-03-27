@@ -1,3 +1,7 @@
+![PHP](https://img.shields.io/badge/PHP-8.2-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Release](https://img.shields.io/badge/Release-v1.0-yellow)
+
 # 🔐 Mbarek Cipher v1.0
 
 Mbarek Cipher est un algorithme de chiffrement expérimental en PHP utilisant des transformations multidimensionnelles (1D, 2D, 3D) pour sécuriser les fichiers.
