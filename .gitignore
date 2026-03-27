@@ -1,0 +1,10 @@
+# Fichiers temporaires
+*.mbk
+*.log
+*.tmp
+
+# MacOS
+.DS_Store
+
+# Linux swap
+*.swp
