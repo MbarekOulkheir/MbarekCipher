@@ -45,6 +45,7 @@ $cipher->decryptFile("output.mbk", "decrypted.txt");
 ```
 ## 📂 Structure du projet
 
+Voici l’organisation des fichiers principaux :
 ```text
 MbarekCipher/
 ├── src/
@@ -56,6 +57,7 @@ MbarekCipher/
 ├── tests/
 ├── README.md
 └── LICENSE
+```
 
 👤 Auteur
 
