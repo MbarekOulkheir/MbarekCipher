@@ -100,19 +100,3 @@ Après utilisation du Mbarek Cipher :
 ✅ Exemple d’utilisation fonctionnel
 ✅ Code source structuré et facile à comprendre
 ✅ Projet prêt pour feedback et tests publics
-
-
----
-
-💡 **Ce qu’il se passe sur GitHub :**  
-
-- Les blocs Bash et PHP sont colorés automatiquement  
-- Les checkboxes dans la Roadmap sont interactives  
-- Tout le texte est correctement séparé et lisible  
-- Tu peux copier-coller directement dans `README.md` et commiter  
-
----
-
-Si tu veux, après ce commit, je peux te guider **pour créer ta première release officielle v1.0 sur GitHub**, étape par étape, pour que ton projet soit visible et téléchargeable 🎯  
-
-Veux-tu qu’on fasse ça maintenant ?
