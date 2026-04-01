@@ -139,4 +139,4 @@ Voici quelques questions pour guider vos retours :
 - Comment évalueriez-vous la gestion des gros fichiers et la qualité du code ?  
 
 Merci à tous ceux qui testent et contribuent à rendre ce projet plus solide ! 🚀
-![Flowchart Mbarek Cipher](src/De_imaginaire.png)
+![Flowchart Mbarek Cipher](src/De_imaginairem.gif)
